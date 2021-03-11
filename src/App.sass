@@ -1,0 +1,112 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-size: 62.5%
+/* 16px * 62.5 = 10px = 1rem */
+
+body
+  margin: 0
+  height: 100vh
+  font-size: 1.6rem
+  font-family: Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+#root
+  height: 100%
+
+.App
+  width: 30rem
+  margin: 5% auto
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-start
+  .inputContainer
+    width: 100%
+    padding-top: 2rem
+    display: flex
+    flex-direction: column
+    label
+      font-size: 1.5rem
+      letter-spacing: 0.2rem
+      padding-bottom: 0.3rem
+      padding-left: 0.3rem
+    input
+      width: 100%
+      padding: 1rem
+      border: 1px solid #333
+      border-radius: 0.5rem
+    input[type="text"]
+      font-size: 1.8rem
+      outline: none
+      &:focus,
+      &:active
+        border: 1px solid darkgreen
+        box-shadow: darkgreen 0.5px 0.5px 0.5px 0.5px
+
+  .checkboxContainer
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    margin-top: 2rem
+    div
+      margin-right: 0.5rem
+      font-size: 1.5rem
+      letter-spacing: 0.2rem
+      padding-left: 0.3rem
+    .radioButtonsContainer
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      .radioButtonContainer
+        margin-right: 2rem
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        label
+          margin-right: 0.5rem
+          font-size: 1.3rem
+          letter-spacing: 0.2rem
+          padding-left: 0.85rem
+          &:after
+            content: ""
+            width: 2rem
+            padding-top: 1rem
+            padding-bottom: 1rem
+            border-radius: 50%
+            border: 1px solid #333333
+            position: absolute
+            bottom: -0.4rem
+            left: 2.5rem
+        input[type="radio"]
+          visibility: hidden
+          &::after
+            display: none
+            content: ""
+            width: 1.26rem
+            padding-top: 0.6rem
+            padding-bottom: 0.6rem
+            border-radius: 50%
+            background: darkgreen
+            position: absolute
+            z-index: 2
+            bottom: 0.1rem
+            left: 3rem
+        input[type="radio"]:checked::after
+          display: block
+          visibility: visible
+        input[type="radio"]:checked ~ label:after
+          border: darkgreen 1px solid
+
+.personContainer
+  margin: 1.5rem auto
+  width: 29rem
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  div
+    margin-bottom: 0.2rem
+    font-size: 1.2rem
