@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/venbest/static/css/main.5bee796c.chunk.css",
+    "main.js": "/venbest/static/js/main.64987e30.chunk.js",
+    "main.js.map": "/venbest/static/js/main.64987e30.chunk.js.map",
+    "runtime-main.js": "/venbest/static/js/runtime-main.bcb55551.js",
+    "runtime-main.js.map": "/venbest/static/js/runtime-main.bcb55551.js.map",
+    "static/js/2.d5d96e56.chunk.js": "/venbest/static/js/2.d5d96e56.chunk.js",
+    "static/js/2.d5d96e56.chunk.js.map": "/venbest/static/js/2.d5d96e56.chunk.js.map",
+    "static/js/3.4678cf1c.chunk.js": "/venbest/static/js/3.4678cf1c.chunk.js",
+    "static/js/3.4678cf1c.chunk.js.map": "/venbest/static/js/3.4678cf1c.chunk.js.map",
+    "index.html": "/venbest/index.html",
+    "static/css/main.5bee796c.chunk.css.map": "/venbest/static/css/main.5bee796c.chunk.css.map",
+    "static/js/2.d5d96e56.chunk.js.LICENSE.txt": "/venbest/static/js/2.d5d96e56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcb55551.js",
+    "static/js/2.d5d96e56.chunk.js",
+    "static/css/main.5bee796c.chunk.css",
+    "static/js/main.64987e30.chunk.js"
+  ]
+}
